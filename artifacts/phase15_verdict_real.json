@@ -1,0 +1,33 @@
+{
+  "phase": 15,
+  "title": "Garde-fou sur données réelles — verdict Expérience 115",
+  "pairs": {
+    "sirt6": {
+      "psig_human_real": 0.0163,
+      "psig_bat_real": 0.0135,
+      "compatibilite_reelle": 0.8282,
+      "action": "PONT_VALIDÉ_DONNÉES_RÉELLES",
+      "reason": "compatibilité topologique réelle 0.828, confiance AlphaFold suffisante, stabilité sous fièvre"
+    },
+    "prestin": {
+      "psig_human_real": 0.0138,
+      "psig_bat_real": 0.0137,
+      "compatibilite_reelle": 0.9928,
+      "action": "PONT_VALIDÉ_DONNÉES_RÉELLES",
+      "reason": "compatibilité topologique réelle 0.993, confiance AlphaFold suffisante, stabilité sous fièvre"
+    },
+    "cirbp": {
+      "psig_human_real": 0.016,
+      "psig_bat_real": 0.0113,
+      "compatibilite_reelle": 0.7062,
+      "action": "REPLIEMENT_KTN_LI",
+      "reason": "humain: 59% de résidus à faible confiance (pLDDT<70); chauve-souris: 58% de résidus à faible confiance (pLDDT<70)"
+    }
+  },
+  "validated_bridges": [
+    "sirt6",
+    "prestin"
+  ],
+  "experience_115_reussie": false,
+  "conclusion": "EXPÉRIENCE N°115 PARTIELLE : 2/3 ponts validés. Le garde-fou a rejeté les autres — honnêteté respectée."
+}
