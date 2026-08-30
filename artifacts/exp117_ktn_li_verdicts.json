@@ -1,0 +1,14 @@
+{
+  "CIRBP_Hybrid_Safe": {
+    "status": "STABLE_CERTIFIABLE",
+    "ktn_li_triggers": [],
+    "action": "CERTIFIÉ — désordre fonctionnel maintenu",
+    "claim_sha256": "a44ae76292767fd88950f461fcfec54f9d498dfdd6731d3ec30215a9e17105c9"
+  },
+  "PRESTIN-STAS_Humanized": {
+    "status": "STABLE_CERTIFIABLE",
+    "ktn_li_triggers": [],
+    "action": "CERTIFIÉ — désordre fonctionnel maintenu",
+    "claim_sha256": "b14280d6557b5d34e05c47677e222fda58aa87ed2bef28ad19761b8f1f9bb1e1"
+  }
+}

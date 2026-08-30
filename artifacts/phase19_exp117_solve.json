@@ -1,0 +1,37 @@
+{
+  "phase": 19,
+  "title": "Exp. 117 — solve-quantum + solve-topo (souverain local)",
+  "cirbp_hybrid_safe": {
+    "quantum": {
+      "E0": -19.4811,
+      "gap_Ds": 23.9322,
+      "S_vN": 0.0218,
+      "n_states": 24
+    },
+    "topo": {
+      "betti_mean": {
+        "H0": 169.83,
+        "H1": 11.96,
+        "H2": 0.38
+      },
+      "Xi_IDP": 13.1031,
+      "var_Xi_IDP_t_raw": 0.6416,
+      "var_Xi_IDP_t_norm": 0.003737
+    },
+    "Rg_nm": 3.457,
+    "ktn_li_triggers": [],
+    "status": "STABLE_CERTIFIABLE"
+  },
+  "prestin_stas_humanized": {
+    "topo_ancrage": {
+      "H1_persistence_PIP2": 146.309,
+      "H1_count": 54,
+      "H2_count": 2
+    },
+    "lys742_pip2_distance_nm": 0.256,
+    "fatigue_per_cycle": "2.95e-09",
+    "ktn_li_triggers": [],
+    "status": "STABLE_CERTIFIABLE"
+  },
+  "phase19_success": true
+}

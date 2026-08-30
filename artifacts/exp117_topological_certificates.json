@@ -1,0 +1,44 @@
+{
+  "CIRBP_Hybrid_Safe": {
+    "scheme": "SHA256-commitment (ZK-STARK-ready, prouveur RISC Zero requis)",
+    "target": "CIRBP_Hybrid_Safe",
+    "claim_sha256": "a44ae76292767fd88950f461fcfec54f9d498dfdd6731d3ec30215a9e17105c9",
+    "public_observables": {
+      "quantum": {
+        "E0": -19.4811,
+        "gap_Ds": 23.9322,
+        "S_vN": 0.0218,
+        "n_states": 24
+      },
+      "topo": {
+        "betti_mean": {
+          "H0": 169.83,
+          "H1": 11.96,
+          "H2": 0.38
+        },
+        "Xi_IDP": 13.1031,
+        "var_Xi_IDP_t_raw": 0.6416,
+        "var_Xi_IDP_t_norm": 0.003737
+      },
+      "Rg_nm": 3.457,
+      "status": "STABLE_CERTIFIABLE"
+    },
+    "timestamp_utc": "2026-08-30T14:42:25Z"
+  },
+  "PRESTIN-STAS_Humanized": {
+    "scheme": "SHA256-commitment (ZK-STARK-ready, prouveur RISC Zero requis)",
+    "target": "PRESTIN-STAS_Humanized",
+    "claim_sha256": "b14280d6557b5d34e05c47677e222fda58aa87ed2bef28ad19761b8f1f9bb1e1",
+    "public_observables": {
+      "topo_ancrage": {
+        "H1_persistence_PIP2": 146.309,
+        "H1_count": 54,
+        "H2_count": 2
+      },
+      "lys742_pip2_distance_nm": 0.256,
+      "fatigue_per_cycle": "2.95e-09",
+      "status": "STABLE_CERTIFIABLE"
+    },
+    "timestamp_utc": "2026-08-30T14:42:25Z"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "phase": 20,
+  "title": "Certificats Exp. 117 + ADN prêts pour synthèse réelle",
+  "certificates_file": "exp117_topological_certificates.json",
+  "verdicts_file": "exp117_ktn_li_verdicts.json",
+  "dna_orders": {
+    "SIRT6_ReHumanized_L7L8": {
+      "dna_length_bp": 864,
+      "file": "synthesis_orders/SIRT6_ReHumanized_L7L8_DNA.fasta"
+    },
+    "PRESTIN_STAS_Humanized_K742": {
+      "dna_length_bp": 2133,
+      "file": "synthesis_orders/PRESTIN_STAS_Humanized_K742_DNA.fasta"
+    },
+    "CIRBP_Hybrid_Safe": {
+      "dna_length_bp": 609,
+      "file": "synthesis_orders/CIRBP_Hybrid_Safe_DNA.fasta"
+    }
+  },
+  "all_certified": true,
+  "conclusion": "EXPÉRIENCE N°117 CERTIFIÉE : CIRBP_Hybrid_Safe et PRESTIN-STAS_Humanized sont stables selon les observables quantiques (E0, Δs, S_vN), topologiques (Betti dynamiques, Xi_IDP, ancrage PIP2) et les garde-fous KTN:Li. Les 3 ADN codon-optimisés sont prêts à commander pour la reproduction physique en laboratoire."
+}
