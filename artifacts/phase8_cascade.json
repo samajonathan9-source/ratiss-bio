@@ -1,0 +1,114 @@
+{
+  "phase": 8,
+  "title": "Cascades organiques — du gène à l'organe",
+  "cascades": {
+    "hybride_guidé": {
+      "protein_length": 115,
+      "protein_folding_coherence": 0.7327,
+      "cascade": [
+        {
+          "level": "Gène hybride",
+          "scale": "nm",
+          "coherence": 0.8871,
+          "amplification": 1.0,
+          "stable": true,
+          "detail": "structure absorbée, fonction maintenue"
+        },
+        {
+          "level": "Protéine",
+          "scale": "nm",
+          "coherence": 0.779,
+          "amplification": 1.1,
+          "stable": true,
+          "detail": "structure absorbée, fonction maintenue"
+        },
+        {
+          "level": "Cellule",
+          "scale": "µm",
+          "coherence": 0.809,
+          "amplification": 1.3,
+          "stable": true,
+          "detail": "structure absorbée, fonction maintenue"
+        },
+        {
+          "level": "Tissu",
+          "scale": "mm",
+          "coherence": 0.8342,
+          "amplification": 1.6,
+          "stable": true,
+          "detail": "structure absorbée, fonction maintenue"
+        },
+        {
+          "level": "Organe",
+          "scale": "cm",
+          "coherence": 0.8551,
+          "amplification": 2.0,
+          "stable": true,
+          "detail": "structure absorbée, fonction maintenue"
+        }
+      ],
+      "organ_risk": {
+        "unstable_levels": [],
+        "first_failure": "aucun",
+        "risk_ratio": 0.0,
+        "verdict": "organe stable — pas de transformation sauvage"
+      }
+    },
+    "hybride_sauvage": {
+      "protein_length": 59,
+      "protein_folding_coherence": 0.7474,
+      "cascade": [
+        {
+          "level": "Gène hybride",
+          "scale": "nm",
+          "coherence": 0.341,
+          "amplification": 1.0,
+          "stable": false,
+          "detail": "cascade chaotique — transformation sauvage"
+        },
+        {
+          "level": "Protéine",
+          "scale": "nm",
+          "coherence": 0.6255,
+          "amplification": 1.1,
+          "stable": true,
+          "detail": "structure absorbée, fonction maintenue"
+        },
+        {
+          "level": "Cellule",
+          "scale": "µm",
+          "coherence": 0.6495,
+          "amplification": 1.3,
+          "stable": true,
+          "detail": "structure absorbée, fonction maintenue"
+        },
+        {
+          "level": "Tissu",
+          "scale": "mm",
+          "coherence": 0.6698,
+          "amplification": 1.6,
+          "stable": true,
+          "detail": "structure absorbée, fonction maintenue"
+        },
+        {
+          "level": "Organe",
+          "scale": "cm",
+          "coherence": 0.6866,
+          "amplification": 2.0,
+          "stable": true,
+          "detail": "structure absorbée, fonction maintenue"
+        }
+      ],
+      "organ_risk": {
+        "unstable_levels": [
+          "Gène hybride"
+        ],
+        "first_failure": "Gène hybride",
+        "risk_ratio": 0.2,
+        "verdict": "⚠️ cascade instable à partir de l'étage 'Gène hybride' — risque de transformation 20%"
+      }
+    }
+  },
+  "conclusion": "L'hybride guidé propage une cascade STABLE jusqu'à l'organe : la régénération fonctionne sans transformation sauvage. L'hybride sauvage déclenche une cascade CHAOTIQUE — le garde-fou de l'Exp. 114 (repliement KTN:Li) l'avait déjà rejeté au niveau du gène. Double validation.",
+  "phase8_success": true
+}
