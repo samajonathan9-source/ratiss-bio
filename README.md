@@ -46,7 +46,8 @@ ratiss-bio/
 │   ├── eth.py               # environnement thermodynamique virtuel
 │   ├── synthesis.py         # ponts de réciprocité, insertion de brins
 │   ├── decoherence.py       # moteur de décohérence quantique
-│   └── guard.py             # garde-fou topologique, repliement KTN:Li
+│   ├── guard.py             # garde-fou topologique, repliement KTN:Li
+│   └── cascade.py           # cascades organiques (gène→protéine→organe)
 ├── experiments/             # phases exécutables
 │   ├── phase1_invariant.py
 │   ├── phase2_eth.py
@@ -54,7 +55,8 @@ ratiss-bio/
 │   ├── phase4_synthesis.py
 │   ├── phase5_decoherence.py
 │   ├── phase6_guard.py
-│   └── phase7_verdict.py
+│   ├── phase7_verdict.py
+│   └── phase8_cascade.py
 ├── artifacts/               # résultats JSON (preuves)
 ├── figures/                 # visualisations
 └── docs/FEUILLE_DE_ROUTE.md # protocole complet

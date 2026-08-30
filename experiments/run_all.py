@@ -7,6 +7,7 @@ from pathlib import Path
 
 PHASES = [f"experiments/phase{i}_{n}.py" for i, n in enumerate(
     ["invariant", "eth", "bridges", "synthesis", "decoherence", "guard", "verdict"], 1)]
+PHASES.append("experiments/phase8_cascade.py")
 
 if __name__ == "__main__":
     root = Path(__file__).resolve().parent.parent
