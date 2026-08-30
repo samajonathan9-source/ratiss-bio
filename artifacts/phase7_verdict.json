@@ -1,0 +1,41 @@
+{
+  "phase": 7,
+  "title": "Preuve et verdict final — Expérience n°114",
+  "loi": "R = P_sig ; ΔW = η·φ·P_sig·C",
+  "tableau_verdict": [
+    {
+      "etat": "ADN humain pur",
+      "p_sig": 0.0065,
+      "verdict": "MAINTIEN",
+      "role": "Invariant de référence"
+    },
+    {
+      "etat": "ADN chauve-souris",
+      "p_sig": 0.0098,
+      "verdict": "MAINTIEN",
+      "role": "Invariant animal"
+    },
+    {
+      "etat": "Hybride sauvage",
+      "p_sig": 0.0007,
+      "verdict": "REPLIEMENT_KTN_LI",
+      "role": "Rejet — effondrement"
+    },
+    {
+      "etat": "Hybride réussi (guidé)",
+      "p_sig": 0.0099,
+      "verdict": "MAINTIEN",
+      "role": "Régénération, humanité intacte"
+    }
+  ],
+  "phases_resume": {
+    "phase1_invariant": "Distance inter-espèces (0.006) vs intra-humain (0.007) : les signatures se recouvrent partiellement — ponts possibles.",
+    "phase2_eth": "L'ADN immunitaire de chauve-souris conserve une stabilité de 0.543 dans le bain humain (seuil 0.35) — il survit à l'environnement humain. La synthèse est envisageable.",
+    "phase3_bridges": "2 ponts de réciprocité identifiés. Le meilleur (position 0) offre une compatibilité topologique de 0.76 avec un gain fonctionnel de 0.0000 — le fragment chauve-souris peut s'insérer sans briser la forme humaine.",
+    "phase4_synthesis": "L'hybride guidé (P_sig=0.0099, stabilité 0.543) survit au bain humain — synthèse viable. L'hybride sauvage sert de témoin (P_sig=0.0007).",
+    "phase5_decoherence": "L'hybride guidé maintient une cohérence de 1.000 (référence humaine 0.989) — fusion viable au niveau quantique. Pont QPU IBM disponible (couplage estimé 0.83).",
+    "phase6_guard": "Garde-fou actif. Hybride guidé : MAINTIEN — hybride sauvage : REPLIEMENT_KTN_LI. Le système protège l'identité humaine tout en permettant la régénération."
+  },
+  "experience_reussie": true,
+  "conclusion_finale": "EXPÉRIENCE N°114 RÉUSSIE. La synthèse guidée par les ponts de réciprocité produit un hybride topologiquement stable qui survit au bain humain, maintient sa cohérence quantique, et est validé par le garde-fou. L'hybride sauvage (fusion brutale) est rejeté par repliement KTN:Li. Guérir sans perdre son humanité."
+}

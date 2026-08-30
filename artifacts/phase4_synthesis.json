@@ -1,0 +1,17 @@
+{
+  "phase": 4,
+  "title": "La synthèse par petits brins",
+  "guided_hybrid": {
+    "length": 345,
+    "insertion_point": 0,
+    "psig": 0.0099,
+    "stability_in_human_bath": 0.5431,
+    "thermodynamic_ok": true
+  },
+  "wild_hybrid": {
+    "psig": 0.0007,
+    "stability_in_human_bath": 0.5391,
+    "thermodynamic_ok": true
+  },
+  "conclusion": "L'hybride guidé (P_sig=0.0099, stabilité 0.543) survit au bain humain — synthèse viable. L'hybride sauvage sert de témoin (P_sig=0.0007)."
+}

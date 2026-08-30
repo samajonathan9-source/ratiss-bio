@@ -1,0 +1,74 @@
+{
+  "phase": 2,
+  "title": "Le bain thermodynamique virtuel (eth)",
+  "stabilities": {
+    "human_tp53": {
+      "own_bath": {
+        "bath": "eth_humain",
+        "temperature": 310.0,
+        "dg_total": -507.8,
+        "dg_per_bp": -1.476,
+        "stability": 0.5346
+      },
+      "foreign_bath": {
+        "bath": "eth_chauve_souris",
+        "temperature": 313.0,
+        "dg_total": -487.18,
+        "dg_per_bp": -1.416,
+        "stability": 0.5074
+      }
+    },
+    "human_rad51": {
+      "own_bath": {
+        "bath": "eth_humain",
+        "temperature": 310.0,
+        "dg_total": -506.52,
+        "dg_per_bp": -1.472,
+        "stability": 0.5329
+      },
+      "foreign_bath": {
+        "bath": "eth_chauve_souris",
+        "temperature": 313.0,
+        "dg_total": -485.9,
+        "dg_per_bp": -1.413,
+        "stability": 0.5057
+      }
+    },
+    "bat_tp53_like": {
+      "own_bath": {
+        "bath": "eth_chauve_souris",
+        "temperature": 313.0,
+        "dg_total": -483.39,
+        "dg_per_bp": -1.405,
+        "stability": 0.5024
+      },
+      "foreign_bath": {
+        "bath": "eth_humain",
+        "temperature": 310.0,
+        "dg_total": -504.01,
+        "dg_per_bp": -1.465,
+        "stability": 0.5296
+      }
+    },
+    "bat_immune_ifit": {
+      "own_bath": {
+        "bath": "eth_chauve_souris",
+        "temperature": 313.0,
+        "dg_total": -493.84,
+        "dg_per_bp": -1.436,
+        "stability": 0.5162
+      },
+      "foreign_bath": {
+        "bath": "eth_humain",
+        "temperature": 310.0,
+        "dg_total": -514.45,
+        "dg_per_bp": -1.496,
+        "stability": 0.5434
+      }
+    }
+  },
+  "human_stability_own": 0.5346,
+  "bat_stability_in_human_bath": 0.5434,
+  "bat_survives_human_bath": true,
+  "conclusion": "L'ADN immunitaire de chauve-souris conserve une stabilité de 0.543 dans le bain humain (seuil 0.35) — il survit à l'environnement humain. La synthèse est envisageable."
+}

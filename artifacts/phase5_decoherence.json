@@ -1,0 +1,39 @@
+{
+  "phase": 5,
+  "title": "L'œil quantique — décohérence",
+  "reports": [
+    {
+      "name": "hybride_guidé",
+      "n_gc": 204,
+      "n_at": 141,
+      "tunneling_rate": "7.548e+02",
+      "decoherence_time_ns": 3840.323,
+      "coherence_score": 1.0,
+      "qpu_used": false,
+      "verdict": "cohérence maintenue — fusion viable"
+    },
+    {
+      "name": "hybride_sauvage",
+      "n_gc": 403,
+      "n_at": 287,
+      "tunneling_rate": "7.680e+02",
+      "decoherence_time_ns": 1887.087,
+      "coherence_score": 1.0,
+      "qpu_used": false,
+      "verdict": "cohérence maintenue — fusion viable"
+    },
+    {
+      "name": "humain_référence",
+      "n_gc": 198,
+      "n_at": 147,
+      "tunneling_rate": "7.865e+02",
+      "decoherence_time_ns": 3685.304,
+      "coherence_score": 0.9887,
+      "qpu_used": false,
+      "verdict": "cohérence maintenue — fusion viable"
+    }
+  ],
+  "qpu_ibm_accessible": true,
+  "guided_coupling_estimate": 0.8278,
+  "conclusion": "L'hybride guidé maintient une cohérence de 1.000 (référence humaine 0.989) — fusion viable au niveau quantique. Pont QPU IBM disponible (couplage estimé 0.83)."
+}

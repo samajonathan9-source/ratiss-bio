@@ -1,0 +1,45 @@
+{
+  "phase": 6,
+  "title": "Le garde-fou topologique",
+  "human_invariant_psig": 0.0065,
+  "bat_invariant_psig": 0.0098,
+  "verdicts": {
+    "humain_pur": {
+      "structure": "humain_pur",
+      "psig": 0.0065,
+      "distance_to_human": 0.0,
+      "collapsed": false,
+      "drifted_to_animal": false,
+      "action": "MAINTIEN",
+      "reason": "Structure stable et proche de l'invariant humain (P_sig=0.0065, distance=0.000). Régénération sans perte d'humanité."
+    },
+    "chauve_souris_pure": {
+      "structure": "chauve_souris_pure",
+      "psig": 0.0098,
+      "distance_to_human": 0.0092,
+      "collapsed": false,
+      "drifted_to_animal": false,
+      "action": "MAINTIEN",
+      "reason": "Structure stable et proche de l'invariant humain (P_sig=0.0098, distance=0.009). Régénération sans perte d'humanité."
+    },
+    "hybride_guidé": {
+      "structure": "hybride_guidé",
+      "psig": 0.0099,
+      "distance_to_human": 0.0149,
+      "collapsed": false,
+      "drifted_to_animal": false,
+      "action": "MAINTIEN",
+      "reason": "Structure stable et proche de l'invariant humain (P_sig=0.0099, distance=0.015). Régénération sans perte d'humanité."
+    },
+    "hybride_sauvage": {
+      "structure": "hybride_sauvage",
+      "psig": 0.0007,
+      "distance_to_human": 0.0348,
+      "collapsed": true,
+      "drifted_to_animal": false,
+      "action": "REPLIEMENT_KTN_LI",
+      "reason": "Effondrement thermodynamique (P_sig=0.0007 < 0.003). Structure dénaturée — repliement forcé vers la forme humaine stable."
+    }
+  },
+  "conclusion": "Garde-fou actif. Hybride guidé : MAINTIEN — hybride sauvage : REPLIEMENT_KTN_LI. Le système protège l'identité humaine tout en permettant la régénération."
+}
