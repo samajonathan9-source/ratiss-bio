@@ -1,0 +1,51 @@
+{
+  "phase": 11,
+  "title": "Scaling QPU — courbes de survie de la cohérence",
+  "backend": "ibm_marrakesh",
+  "shots": 4096,
+  "curves": {
+    "hybride_guidé": [
+      {
+        "n_qubits": 4,
+        "coherence_hw": 0.9902,
+        "elapsed_s": 10.8
+      },
+      {
+        "n_qubits": 8,
+        "coherence_hw": 0.9773,
+        "elapsed_s": 13.0
+      },
+      {
+        "n_qubits": 12,
+        "coherence_hw": 0.897,
+        "elapsed_s": 12.6
+      }
+    ],
+    "hybride_sauvage": [
+      {
+        "n_qubits": 4,
+        "coherence_hw": 0.5032,
+        "elapsed_s": 16.2
+      },
+      {
+        "n_qubits": 8,
+        "coherence_hw": 0.188,
+        "elapsed_s": 12.7
+      },
+      {
+        "n_qubits": 12,
+        "coherence_hw": 0.0623,
+        "elapsed_s": 11.8
+      }
+    ]
+  },
+  "survival_guided": 0.9059,
+  "survival_wild": 0.1238,
+  "validation_scaling": true,
+  "genes_panel": [
+    "bat_longevity_sirt6",
+    "bat_echolocation_prestin",
+    "bat_hibernation_cirbp"
+  ],
+  "conclusion": "SCALING VALIDÉ sur ibm_marrakesh : à 4096 shots et jusqu'à 12 qubits, l'hybride guidé conserve mieux sa cohérence en profondeur (survie 0.91) que le sauvage (0.12). La signature topologique résiste à la montée en échelle sur hardware réel."
+}

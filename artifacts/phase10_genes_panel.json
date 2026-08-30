@@ -1,0 +1,76 @@
+{
+  "phase": 10,
+  "title": "Panneau multi-gènes — pouvoirs de la chauve-souris",
+  "results": {
+    "bat_longevity_sirt6": {
+      "role": "longévité / réparation ADN",
+      "bridge_compat": 0.9132,
+      "hybrid": {
+        "length": 345,
+        "insertion_point": 120,
+        "psig": 0.0082,
+        "stability_in_human_bath": 0.6082,
+        "thermodynamic_ok": true
+      },
+      "guard": {
+        "structure": "hybride_bat_longevity_sirt6",
+        "psig": 0.0082,
+        "distance_to_human": 0.0048,
+        "collapsed": false,
+        "drifted_to_animal": false,
+        "action": "MAINTIEN",
+        "reason": "Structure stable et proche de l'invariant humain (P_sig=0.0082, distance=0.005). Régénération sans perte d'humanité."
+      },
+      "transferable": true
+    },
+    "bat_echolocation_prestin": {
+      "role": "écholocation (moteur cochléaire)",
+      "bridge_compat": 0.9989,
+      "hybrid": {
+        "length": 345,
+        "insertion_point": 120,
+        "psig": 0.0076,
+        "stability_in_human_bath": 0.6021,
+        "thermodynamic_ok": true
+      },
+      "guard": {
+        "structure": "hybride_bat_echolocation_prestin",
+        "psig": 0.0076,
+        "distance_to_human": 0.0011,
+        "collapsed": false,
+        "drifted_to_animal": false,
+        "action": "MAINTIEN",
+        "reason": "Structure stable et proche de l'invariant humain (P_sig=0.0076, distance=0.001). Régénération sans perte d'humanité."
+      },
+      "transferable": true
+    },
+    "bat_hibernation_cirbp": {
+      "role": "hibernation / choc métabolique",
+      "bridge_compat": 0.845,
+      "hybrid": {
+        "length": 345,
+        "insertion_point": 0,
+        "psig": 0.0093,
+        "stability_in_human_bath": 0.5919,
+        "thermodynamic_ok": true
+      },
+      "guard": {
+        "structure": "hybride_bat_hibernation_cirbp",
+        "psig": 0.0093,
+        "distance_to_human": 0.0099,
+        "collapsed": false,
+        "drifted_to_animal": false,
+        "action": "MAINTIEN",
+        "reason": "Structure stable et proche de l'invariant humain (P_sig=0.0093, distance=0.010). Régénération sans perte d'humanité."
+      },
+      "transferable": true
+    }
+  },
+  "transferable_powers": [
+    "bat_longevity_sirt6",
+    "bat_echolocation_prestin",
+    "bat_hibernation_cirbp"
+  ],
+  "conclusion": "3/3 pouvoirs transférables par synthèse guidée : longévité / réparation ADN, écholocation (moteur cochléaire), hibernation / choc métabolique. Le garde-fou topologique filtre chaque gène individuellement.",
+  "phase10_success": true
+}
