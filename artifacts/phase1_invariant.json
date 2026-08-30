@@ -1,0 +1,54 @@
+{
+  "phase": 1,
+  "title": "L'Invariant topologique",
+  "signatures": {
+    "human_tp53": {
+      "name": "human_tp53",
+      "n_points": 345,
+      "h0_persistence": 2676.3145,
+      "h1_persistence": 30.9938,
+      "h2_persistence": 0.0,
+      "h1_count": 17,
+      "h2_count": 0,
+      "p_sig": 0.006
+    },
+    "human_rad51": {
+      "name": "human_rad51",
+      "n_points": 345,
+      "h0_persistence": 2762.8533,
+      "h1_persistence": 28.246,
+      "h2_persistence": 0.0,
+      "h1_count": 13,
+      "h2_count": 0,
+      "p_sig": 0.0054
+    },
+    "bat_tp53_like": {
+      "name": "bat_tp53_like",
+      "n_points": 345,
+      "h0_persistence": 2641.9643,
+      "h1_persistence": 32.3934,
+      "h2_persistence": 0.0,
+      "h1_count": 17,
+      "h2_count": 0,
+      "p_sig": 0.0062
+    },
+    "bat_immune_ifit": {
+      "name": "bat_immune_ifit",
+      "n_points": 345,
+      "h0_persistence": 2739.3832,
+      "h1_persistence": 36.2664,
+      "h2_persistence": 0.0,
+      "h1_count": 19,
+      "h2_count": 0,
+      "p_sig": 0.007
+    }
+  },
+  "human_invariant_psig": 0.0057,
+  "bat_invariant_psig": 0.0066,
+  "intra_species_distance": {
+    "human": 0.0072,
+    "bat": 0.0035
+  },
+  "inter_species_distance": 0.0056,
+  "conclusion": "Distance inter-espèces (0.006) vs intra-humain (0.007) : les signatures se recouvrent partiellement — ponts possibles."
+}

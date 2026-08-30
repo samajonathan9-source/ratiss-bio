@@ -1,0 +1,37 @@
+{
+  "phase": 3,
+  "title": "Les ponts de réciprocité",
+  "human_context": "human_tp53 (réparation)",
+  "bat_source": "bat_immune_ifit (immunité/longévité)",
+  "n_bridges_found": 2,
+  "bridges": [
+    {
+      "bat_fragment": "ATGAGTGAGACAGATGCTGCAGAGGAAGCTGAAGGAGATCCTGCGGAAGTACCTGCGGGCCATGAGCAAGATCGACCTGGAGAAGTTCCTGACCAGCCTGCGGGAAGAGGCTGCCAAGCT",
+      "human_context": "ATGGAGGAGCCGCAGTCAGATCCTAGCGTCGAGCCCCCTCTGAGTCAGGAAACATTTTCAGACCTATGGAAACTACTTCCTGAAAACAACGTTCTGTCCCCCTTGCCGTCCCAAGCAATG",
+      "position": 0,
+      "topo_compat": 0.7589,
+      "bat_psig": 0.0106,
+      "human_local_psig": 0.0139,
+      "functional_gain": 0.0
+    },
+    {
+      "bat_fragment": "GAAGGAGCTGGCCGACAAGATCGTGGAGACCCTGAAGCAGAAGATCAAGGAGCTGGAGGCTGAGATCGCCAAGTACCTGACCAGCGAGATCGCCAAGCTGCGGGAGAAGCTGGCCGACCT",
+      "human_context": "GATGATTTGATGCTGTCCCCGGACGATATTGAACAATGGTTCACTGAAGACCCAGGTCCAGATGAAGCTCCCAGAATGCCAGAGGCTGCTCCCCCCGTGGCCCCTGCACCAGCAGCTCCT",
+      "position": 120,
+      "topo_compat": 0.4939,
+      "bat_psig": 0.0091,
+      "human_local_psig": 0.006,
+      "functional_gain": 0.003
+    }
+  ],
+  "best_bridge": {
+    "bat_fragment": "ATGAGTGAGACAGATGCTGCAGAGGAAGCTGAAGGAGATCCTGCGGAAGTACCTGCGGGCCATGAGCAAGATCGACCTGGAGAAGTTCCTGACCAGCCTGCGGGAAGAGGCTGCCAAGCT",
+    "human_context": "ATGGAGGAGCCGCAGTCAGATCCTAGCGTCGAGCCCCCTCTGAGTCAGGAAACATTTTCAGACCTATGGAAACTACTTCCTGAAAACAACGTTCTGTCCCCCTTGCCGTCCCAAGCAATG",
+    "position": 0,
+    "topo_compat": 0.7589,
+    "bat_psig": 0.0106,
+    "human_local_psig": 0.0139,
+    "functional_gain": 0.0
+  },
+  "conclusion": "2 ponts de réciprocité identifiés. Le meilleur (position 0) offre une compatibilité topologique de 0.76 avec un gain fonctionnel de 0.0000 — le fragment chauve-souris peut s'insérer sans briser la forme humaine."
+}
