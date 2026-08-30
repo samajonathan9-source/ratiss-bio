@@ -1,0 +1,61 @@
+{
+  "phase": 16,
+  "title": "Mutagenèse dirigée — corrections RATISS Mère",
+  "reports": {
+    "sirt6": {
+      "target": "sirt6",
+      "mutations": {
+        "124": "*→K",
+        "127": "*→G",
+        "131": "*→V"
+      },
+      "length": 287,
+      "notes": "Re-humanisation loop L7-L8 — débloque k_on (fixation enzymatique) en gardant le cœur catalytique chauve-souris.",
+      "guard": {
+        "structure": "sirt6_rehumanized",
+        "psig": 0.0,
+        "distance_to_human": 0.0565,
+        "collapsed": true,
+        "drifted_to_animal": false,
+        "action": "REPLIEMENT_KTN_LI",
+        "reason": "Effondrement thermodynamique (P_sig=0.0000 < 0.003). Structure dénaturée — repliement forcé vers la forme humaine stable."
+      }
+    },
+    "prestin": {
+      "target": "prestin",
+      "mutations": {
+        "742": "E→K"
+      },
+      "length": 710,
+      "notes": "Restauration Lys742 — ré-ancrage aux lipides PIP2, stoppe la fuite énergétique de 18%.",
+      "guard": {
+        "structure": "prestin_stas_humanized",
+        "psig": 0.0,
+        "distance_to_human": 0.0565,
+        "collapsed": true,
+        "drifted_to_animal": false,
+        "action": "REPLIEMENT_KTN_LI",
+        "reason": "Effondrement thermodynamique (P_sig=0.0000 < 0.003). Structure dénaturée — repliement forcé vers la forme humaine stable."
+      }
+    },
+    "cirbp_hybrid_safe": {
+      "target": "cirbp",
+      "composition": "RRM chauve-souris (1-95) + queue IDP humaine",
+      "length": 202,
+      "sequence": "MASDEGKLFVGGLSFDTNEQSLEQVFSKYGQISEVVVVKDRETQRSRGFGFVTFENIDDAKDAMMAMNGKSVDGRQIRVDQAGKSSDNRSRGYRGGSAGGRGFFRGGRGRGRGFSRGGGDRGYGGNRFESRSGGYGGSRDYYSSRSQSGGYSDRSSGGSYRDSYDSYEAGQRAEARGIPGRPQTASRLASSAVASRVLSILC",
+      "guard": {
+        "structure": "cirbp_hybrid_safe",
+        "psig": 0.0002,
+        "distance_to_human": 0.05,
+        "collapsed": true,
+        "drifted_to_animal": false,
+        "action": "REPLIEMENT_KTN_LI",
+        "reason": "Effondrement thermodynamique (P_sig=0.0002 < 0.003). Structure dénaturée — repliement forcé vers la forme humaine stable."
+      },
+      "notes": "Zéro nouvelle interface de surface (Condition 10). Validation par Xi_IDP en Phase 17."
+    }
+  },
+  "n_validated": 0,
+  "conclusion": "0/3 constructions corrigées validées par le garde-fou. Séquences déposées dans artifacts/corrected_sequences/ — prêtes pour la validation Xi_IDP (Phase 17) et la dynamique moléculaire (Phase 18).",
+  "phase16_success": false
+}

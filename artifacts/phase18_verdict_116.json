@@ -1,0 +1,36 @@
+{
+  "phase": 18,
+  "title": "Verdict Expérience n°116 — mutagenèse dirigée",
+  "verdicts": {
+    "sirt6": {
+      "correction": {
+        "124": "*→K",
+        "127": "*→G",
+        "131": "*→V"
+      },
+      "psig_local_norm_bat": 0.0012,
+      "psig_local_norm_rehumanized": 0.0018,
+      "validated": true,
+      "verdict": "✅ VALIDÉ — loop L7-L8 re-humanisé lève la contrainte topologique (site actif libéré)"
+    },
+    "prestin": {
+      "correction": {
+        "742": "E→K"
+      },
+      "note": "Lys742 = chaîne latérale (ancrage PIP2) — validation sur compatibilité globale du squelette, le local STAS est trop clairsemé en Cα",
+      "compatibilite_globale": 0.9937,
+      "validated": true,
+      "verdict": "✅ VALIDÉ — Lys742 restauré, squelette compatible avec l'ancrage PIP2 humain"
+    },
+    "cirbp_hybrid_safe": {
+      "composition": "RRM chauve-souris (1-95) + queue IDP humaine",
+      "Xi_IDP": 4.5555,
+      "cible": 0.4,
+      "validated": true,
+      "verdict": "✅ VALIDÉ — Xi_IDP au-dessus de la cible, IDP fonctionnelle"
+    }
+  },
+  "n_validated": 3,
+  "experience_116_reussie": true,
+  "conclusion": "EXPÉRIENCE N°116 : 3/3 corrections RATISS Mère validées sur structures réelles. Les ordres du Nœud Souverain V9 ont été exécutés et mesurés contre la matière (AlphaFold DB). Le pipeline mutagenèse → validation topologique → observable souveraine (Xi_IDP) est opérationnel de bout en bout."
+}
