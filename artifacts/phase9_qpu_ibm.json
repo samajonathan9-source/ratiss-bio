@@ -1,0 +1,35 @@
+{
+  "phase": 9,
+  "title": "Validation QPU IBM réelle — cohérence sur hardware",
+  "backend": "ibm_kingston",
+  "n_qubits": 4,
+  "hardware": {
+    "hybride_guidé": {
+      "coherence_encodee": 1.0,
+      "coherence_hw_mesuree": 0.3232,
+      "shots": 1024,
+      "counts_top": {
+        "0001": 380,
+        "0000": 331,
+        "0011": 164,
+        "0010": 145
+      },
+      "elapsed_s": 18.1
+    },
+    "hybride_sauvage": {
+      "coherence_encodee": 0.4914,
+      "coherence_hw_mesuree": 0.1973,
+      "shots": 1024,
+      "counts_top": {
+        "0000": 202,
+        "0001": 194,
+        "0011": 137,
+        "0010": 88
+      },
+      "elapsed_s": 12.2
+    }
+  },
+  "contraste_hw": 0.1259,
+  "validation_hw": true,
+  "conclusion": "VALIDATION HARDWARE RÉUSSIE sur ibm_kingston : l'hybride guidé présente une cohérence quantique mesurée (0.323) supérieure à l'hybride sauvage (0.197) sur un vrai processeur quantique de 156 qubits. Le contraste guidé/sauvage de la Phase 5 est confirmé par le hardware. R = P_sig tient sur QPU."
+}
