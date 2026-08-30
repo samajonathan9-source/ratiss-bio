@@ -1,0 +1,115 @@
+{
+  "phase": 13,
+  "title": "Structures 3D réelles — P_sig sur coordonnées AlphaFold",
+  "sources": [
+    "UniProt REST",
+    "AlphaFold DB (EBI)"
+  ],
+  "results": {
+    "human_sirt6": {
+      "found": true,
+      "uniprot": "Q8N6T7",
+      "n_residues": 355,
+      "mean_plddt": 87.5,
+      "low_conf_frac": 0.175,
+      "psig_real": {
+        "name": "human_sirt6",
+        "n_points": 355,
+        "h0_persistence": 1064.1502,
+        "h1_persistence": 80.0145,
+        "h2_persistence": 4.8812,
+        "h1_count": 36,
+        "h2_count": 3,
+        "p_sig": 0.0163
+      }
+    },
+    "human_prestin": {
+      "found": true,
+      "uniprot": "P58743",
+      "n_residues": 744,
+      "mean_plddt": 83.7,
+      "low_conf_frac": 0.156,
+      "psig_real": {
+        "name": "human_prestin",
+        "n_points": 744,
+        "h0_persistence": 1375.7288,
+        "h1_persistence": 146.0068,
+        "h2_persistence": 5.7748,
+        "h1_count": 51,
+        "h2_count": 4,
+        "p_sig": 0.0138
+      }
+    },
+    "human_cirbp": {
+      "found": true,
+      "uniprot": "Q14011",
+      "n_residues": 172,
+      "mean_plddt": 61.4,
+      "low_conf_frac": 0.593,
+      "psig_real": {
+        "name": "human_cirbp",
+        "n_points": 172,
+        "h0_persistence": 644.9541,
+        "h1_persistence": 41.5789,
+        "h2_persistence": 0.0,
+        "h1_count": 17,
+        "h2_count": 0,
+        "p_sig": 0.016
+      }
+    },
+    "bat_sirt6": {
+      "found": true,
+      "uniprot": "G1PC24",
+      "n_residues": 339,
+      "mean_plddt": 85.4,
+      "low_conf_frac": 0.183,
+      "psig_real": {
+        "name": "bat_sirt6",
+        "n_points": 339,
+        "h0_persistence": 1035.5882,
+        "h1_persistence": 63.7565,
+        "h2_persistence": 3.6241,
+        "h1_count": 29,
+        "h2_count": 1,
+        "p_sig": 0.0135
+      }
+    },
+    "bat_prestin": {
+      "found": true,
+      "uniprot": "G1PCI8",
+      "n_residues": 745,
+      "mean_plddt": 82.0,
+      "low_conf_frac": 0.166,
+      "psig_real": {
+        "name": "bat_prestin",
+        "n_points": 745,
+        "h0_persistence": 1395.0628,
+        "h1_persistence": 148.4856,
+        "h2_persistence": 3.6091,
+        "h1_count": 55,
+        "h2_count": 3,
+        "p_sig": 0.0137
+      }
+    },
+    "bat_cirbp": {
+      "found": true,
+      "uniprot": "G1PRB0",
+      "n_residues": 172,
+      "mean_plddt": 59.4,
+      "low_conf_frac": 0.581,
+      "psig_real": {
+        "name": "bat_cirbp",
+        "n_points": 172,
+        "h0_persistence": 642.587,
+        "h1_persistence": 29.2411,
+        "h2_persistence": 0.0,
+        "h1_count": 17,
+        "h2_count": 0,
+        "p_sig": 0.0113
+      }
+    }
+  },
+  "n_structures": 6,
+  "conclusion": "6/6 structures 3D réelles téléchargées (AlphaFold DB) et analysées topologiquement : P_sig calculé sur les vraies coordonnées C-alpha. La physique réelle est mesurée.",
+  "phase13_success": true
+}

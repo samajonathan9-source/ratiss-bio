@@ -1,0 +1,52 @@
+{
+  "phase": 14,
+  "title": "Stress thermique sur structures réelles (37°C → 41°C)",
+  "method": "bruit brownien modulé par pLDDT réel (désordre local)",
+  "results": {
+    "human_sirt6": {
+      "p_sig_37C": 0.0163,
+      "p_sig_41C": 0.0148,
+      "drift_41C": 0.0015,
+      "denatured": false,
+      "stable_under_fever": true
+    },
+    "human_prestin": {
+      "p_sig_37C": 0.0138,
+      "p_sig_41C": 0.0149,
+      "drift_41C": 0.0011,
+      "denatured": false,
+      "stable_under_fever": true
+    },
+    "human_cirbp": {
+      "p_sig_37C": 0.016,
+      "p_sig_41C": 0.0153,
+      "drift_41C": 0.0007,
+      "denatured": false,
+      "stable_under_fever": true
+    },
+    "bat_sirt6": {
+      "p_sig_37C": 0.0135,
+      "p_sig_41C": 0.0143,
+      "drift_41C": 0.0008,
+      "denatured": false,
+      "stable_under_fever": true
+    },
+    "bat_prestin": {
+      "p_sig_37C": 0.0137,
+      "p_sig_41C": 0.0137,
+      "drift_41C": 0.0,
+      "denatured": false,
+      "stable_under_fever": true
+    },
+    "bat_cirbp": {
+      "p_sig_37C": 0.0113,
+      "p_sig_41C": 0.0095,
+      "drift_41C": 0.0018,
+      "denatured": false,
+      "stable_under_fever": true
+    }
+  },
+  "stable_count": 6,
+  "conclusion": "6/6 structures réelles restent topologiquement stables sous fièvre (41°C). Les dérives ΔP_sig mesurées sur les vraies coordonnées servent de tension topologique physique pour le garde-fou.",
+  "phase14_success": true
+}
